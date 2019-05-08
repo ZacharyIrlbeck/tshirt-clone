@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: tshirt-clone_production
-  username: tshirt-clone
+  database: carbonprint
+  username: administrator
   password: <%= ENV['TSHIRT-CLONE_DATABASE_PASSWORD'] %>
